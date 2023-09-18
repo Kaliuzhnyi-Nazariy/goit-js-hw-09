@@ -111,33 +111,3 @@ function renderDate({ days, hours, minutes, seconds }) {
 }
 
 btnStart.addEventListener('click', startBtn);
-
-// window.addEventListener('click', () => {
-//     clearInterval(timerID);
-
-//     btnStart.setAttribute('disabled', true);
-
-//     selectors.seconds.textContent = '00';
-//     selectors.minutes.textContent = '00';
-//     selectors.hours.textContent = '00';
-//     selectors.day.textContent = '00';
-// });
-
-// btnStart.addEventListener('click', () => {
-//   const selectedDate = new Date(inputDate.value).getTime();
-//   const currentDate = Date.now();
-//   let betweenDates = selectedDate - currentDate;
-
-//   setInterval(() => {
-//     console.log(convertMs(betweenDates));
-//     selectors.day.textContent = convertMs(betweenDates).getHours()
-//   }, 1000);
-// });
-
-// console.log(selectedDate)
-// console.log(currentDate)
-// btnStart.disabled = true;
-
-// if (selectedDate > currentDate) {
-//   btnStart.disabled = false;
-// }
