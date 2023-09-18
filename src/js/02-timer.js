@@ -7,7 +7,8 @@ selectors = {
   hours: document.querySelector('[data-hours]'),
   minutes: document.querySelector('[data-minutes]'),
   seconds: document.querySelector('[data-seconds]'),
-};
+}; 
+
 
 const inputDate = document.querySelector('#datetime-picker');
 
